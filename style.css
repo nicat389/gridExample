@@ -1,0 +1,93 @@
+.first {
+    height: 100px;
+    background: red;
+}
+
+.second,
+.third {
+    margin-top: 10px;
+}
+
+.sL,
+.sR {
+    height: 100px;
+}
+
+.sL {
+    background: blue;
+}
+
+.sR {
+    background: green;
+}
+
+.tL,
+.tM,
+.tR {
+    height: 200px;
+}
+
+.tL {
+    background: gray;
+}
+
+.tM {
+    background: navy;
+}
+
+.tR {
+    background: black;
+}
+
+.fourth {
+    margin-top: 20px;
+    height: 200px;
+    background: turquoise;
+}
+
+.fifth {
+    margin-top: 20px;
+}
+
+.fL,
+.fR {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.fL>div:first-child>div {
+    height: 100px;
+    border: 1px solid seagreen;
+}
+
+.fL>div:last-child>div {
+    height: 100px;
+    border: 1px solid red;
+}
+
+.fR>.col8 {
+    border: 1px solid gray;
+    height: 100px;
+}
+
+.fR>.col4 {
+    border: 1px solid green;
+    height: 100px;
+}
+
+.footer {
+    height: 400px;
+    margin-top: 20px;
+}
+
+.footer>div {
+    margin-top: 50px;
+    height: 200px;
+    border: 1px solid darkred;
+}
+
+.footer>div:first-child,
+.footer>div:nth-child(2),
+.footer>div:nth-child(3) {
+    border-right: none;
+}
